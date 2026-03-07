@@ -4,8 +4,8 @@ import { backendUrl } from "../App";
 import { toast } from "react-toastify";
 
 export const Login = ({ setToken }) => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("fady@gmail.com");
+  const [password, setPassword] = useState("fady2003");
   const onSumbitHandler = async (e) => {
     try {
       e.preventDefault();
@@ -53,8 +53,6 @@ export const Login = ({ setToken }) => {
               required
             ></input>
           </div>
-          <p>email:fady@gmail.com</p>
-          <p>password:fady2003</p>
           <button
             className="mt-2 w-full py-2 px-4 rounded-md text-white bg-black"
             type="submit"
