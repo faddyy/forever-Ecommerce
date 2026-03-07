@@ -4,8 +4,8 @@ import { backendUrl } from "../App";
 import { toast } from "react-toastify";
 
 export const Login = ({ setToken }) => {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("fady@gmail.com");
+  const [password, setPassword] = useState("fady2003");
   const onSumbitHandler = async (e) => {
     try {
       e.preventDefault();
