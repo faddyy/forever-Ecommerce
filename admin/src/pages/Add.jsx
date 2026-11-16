@@ -47,8 +47,8 @@ export const Add = ({ token }) => {
         setImage3("");
         setImage4("");
         setDescription("");
-        setCategory("");
-        setSubCategory("");
+        setCategory("Men");
+        setSubCategory("Topwear");
         setSizes([]);
         setPrice("");
         setBestseller(false);
